@@ -1,5 +1,6 @@
 #tuple is same as lists but the difference is tuple is immutable
 a = (2, 3, 'Mahir', True, 'Apple', 32.4)
+b = (1,)
 """
 a = () # empty tuple 
 a = (1,) # tuple with only one element needs a comma 

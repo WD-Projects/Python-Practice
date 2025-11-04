@@ -30,3 +30,18 @@ print(container.pop(4))
 
 container.remove("Apple")
 print(container)
+
+container.append("HIjabi")
+print(container)
+
+container.extend(container2)
+print(container)
+
+print(container[1][2]) # first will work with Apple then will print of index 2 of Apple
+
+
+container3 = [
+    ["Apple", "Banana"],
+    [345, 54.345]
+]
+print(container3[1][0])

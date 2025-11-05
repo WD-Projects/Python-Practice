@@ -1,2 +1,4 @@
-import numpy as nm
-print(nm.__version__)
+import math
+a = 45 / 23
+print(math.floor(a))
+print(math.ceil(a))

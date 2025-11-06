@@ -45,3 +45,10 @@ container3 = [
     [345, 54.345]
 ]
 print(container3[1][0])
+
+print("--------")
+
+a1 = [1, 2, 3]
+a2 = ["Mango", "Apple", "Banana"]
+print(dict(zip(a1,a2)))
+print(list(zip(a1,a2)))

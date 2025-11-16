@@ -1,0 +1,5 @@
+| Function     | Purpose                          | Example              |
+| ------------ | -------------------------------- | -------------------- |
+| **map()**    | Transform each item              | double all numbers   |
+| **filter()** | Keep items that meet a condition | keep evens           |
+| **reduce()** | Combine all items into one value | multiply all numbers |

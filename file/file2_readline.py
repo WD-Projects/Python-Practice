@@ -14,7 +14,7 @@
 # print(line4 == "")
 
 
-f = open("file/file2.txt")
+f = open("file\\file2.txt")
 line  = f.readline()
 while(line != ""):
     print(line)

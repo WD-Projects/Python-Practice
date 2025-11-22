@@ -2,7 +2,7 @@
 @abstractmethod
 
 This one comes from the abc module (Abstract Base Class).
-It’s used to force subclasses to implement a particular method
+It is used to force subclasses to implement a particular method
 '''
 
 from abc import ABC, abstractmethod

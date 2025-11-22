@@ -14,4 +14,4 @@ class Child(Father, Mother):
 c1 = Child()
 c1.cook()
 c1.eat()
-c1.write()        
+Child.write()

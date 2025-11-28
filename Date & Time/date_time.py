@@ -15,5 +15,6 @@ ekhon = date(year = 1999, month = 4, day = 12)
 print(ekhon)
 print(ekhon.year)
 
+#"timedelta" is basically a difference between present time and future time
 ekhon = datetime.now()
 print(ekhon + timedelta(days = 5, minutes = 5))

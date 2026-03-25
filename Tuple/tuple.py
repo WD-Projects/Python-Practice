@@ -13,3 +13,4 @@ a = (1, 7, 2)
 • a.index (1) will return the index of first occurrence of 1 in a.
 """
 print(c) #output is ()
+print(a.index(2))

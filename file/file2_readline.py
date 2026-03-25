@@ -1,6 +1,6 @@
-# f = open("file/file2.txt")
-# line1 = f.readlines()
-# print(line1)
+f = open("file/file2.txt")
+line1 = f.readlines()
+print(line1)#output: ['This is a good boy\n', 'He is very clever\n', 'You are absolute']
 
 
 # f = open("file/file2.txt")
@@ -14,10 +14,10 @@
 # print(line4 == "")
 
 
-f = open("file\\file2.txt")
-line  = f.readline()
-while(line != ""):
-    print(line)
-    line = f.readline()
+# f = open("file\\file2.txt")
+# line  = f.readline()
+# while(line != ""):
+#     print(line)
+#     line = f.readline()
 
-f.close()
+# f.close()

@@ -29,6 +29,7 @@ class Principle:
             cls.instance = super().__new__(cls)
             cls.instance.name = "Mahir"
         return cls.instance
+        #__new__ → returns object → __init__ runs on that object
     
 obj1 = Principle()
 obj2 = Principle()

@@ -1,13 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'blog/css/index.css' %}">
 </head>
 <body>
     <h2>Welcome to Django.</h2>
     <h3>My name is {{name}}</h3>
+    <img src="{% static 'blog/images/image.png' %}" alt="nature_image">
     <ul>
         {% for blog in blogs %}
         <li>{{blog.title}}</li>

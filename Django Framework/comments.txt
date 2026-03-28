@@ -1,0 +1,27 @@
+🔹Static Files
+Static files = files that do NOT change
+These are used for design and frontend styling.
+Examples:
+CSS files (styles)
+JavaScript files
+Images (logo, icons)
+Fonts
+📌 Key idea:
+They are fixed and written by the developer.
+
+🔹 Media Files
+Media files = files that ARE uploaded by users
+These are dynamic, meaning they come from users.
+Examples:
+Profile pictures
+Uploaded documents
+Videos uploaded by users
+📌 Key idea:
+They are not fixed — users create/upload them.
+Example:
+If a user uploads a profile image:
+
+* In apps, models handles the database means the whole table is the model and every row is the object.
+* "models.Model" class provides us a by default id.
+* When this command is run "python manage.py makemigrations" django notes there should be a table named [table_name]
+🔹Simple Definition: Rendering = Filling dynamic values into an HTML template

@@ -1,0 +1,10 @@
+* python3.14 -m venv venv
+* .\venv\Scripts\activate
+* pip install Django
+* django-admin --version
+* django-admin startproject [project_name] .(used for creating new project)
+* python manage.py runserver(used for running the django local server)
+* python manage.py startapp [appname]
+* python manage.py makemigrations(used for taking notes that the table should be added in the database)
+* python manage.py migrate(used for creating table in database)
+* python manage.py createsuperuser(used for admin login)

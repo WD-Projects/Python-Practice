@@ -9,4 +9,5 @@ print(collections.Counter(fruits).most_common(2)) #[('Banana', 2), ('Apple', 1)]
 
 word_dict = collections.defaultdict(list)
 word_dict["Python"].append("Programming Language")
+word_dict["Name"].append("Mahir")
 print(word_dict)

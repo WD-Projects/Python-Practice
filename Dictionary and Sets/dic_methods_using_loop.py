@@ -1,7 +1,7 @@
 a = {
     "Mahir" : 90,
     "Akib" : 56,
-    1 : ["Apple", "Banana", "Cherry"]
+    "1" : ["Apple", "Banana", "Cherry"]
 }
 
 for item in a:

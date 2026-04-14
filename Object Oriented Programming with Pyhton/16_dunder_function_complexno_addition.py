@@ -33,7 +33,7 @@ c2.show_number()
 # c3 = c1.add(c2)
 # c3.show_number()
 
-c3 = c1 + c2 #Python is trying to do "c3 = c1.add(c2)"
+c3 = c1 + c2 #Python is trying to do "c3 = c1.__add__(c2)"
 c3.show_number()
 
 c3 = c1 - c2

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css" />
+  <title>Book Form</title>
+</head>
+<body>
+<!-- What happens internally?
+Without 'multipart encoding':
+title=Book&author=Mahir
+Everything becomes plain text.
+But files are huge binary data (images, pdfs, videos), so browser needs a different format.
+multipart/form-data sends data in multiple parts:
+one part for title
+one part for author
+one part for image/file -->
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <!-- <label>Title:</label>
+    <input type="text" name="title" />
+
+    <label>Author:</label>
+    <input type="text" name="author" />
+
+    <label>Rating:</label>
+    <input type="number" name="rating" />
+
+    <label>Description:</label>
+    <textarea name="description"></textarea> -->
+
+    {{ form }}
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>

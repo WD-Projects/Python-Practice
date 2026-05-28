@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Home{% endblock %} | Task App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+
+    {% include 'tasks/msg.html' %}
+
+    <h1 class="text-3xl border border-red-500 p-4 m-4 text-center">
+        Welcome to Task Manager!
+    </h1>
+
+    {% block jamonchay %}
+    ...
+    {% endblock %}
+
+</body>
+
+</html>

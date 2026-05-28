@@ -1,0 +1,11 @@
+<div class="">
+    {% if messages %}
+    <ul class="border border-3 border-cyan-600">
+        {% for message in messages %}
+
+        <li>{{ message.tags }} - {{ message }}</li>
+
+        {% endfor %}
+    </ul>
+    {% endif %}
+</div>

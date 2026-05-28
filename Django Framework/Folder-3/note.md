@@ -1,0 +1,1 @@
+Template folder by default works globally means when template folders create in different apps they merge with each other by default. For this the best practice is to create a folder match with the app name under the template folder so that the html file of an app cannot be accessed from the another app's view.

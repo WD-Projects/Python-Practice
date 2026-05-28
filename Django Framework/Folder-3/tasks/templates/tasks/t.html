@@ -1,0 +1,12 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}
+    description
+{% endblock %}
+
+{% block show %}
+    {% include 'tasks/msg.html' %}
+    <h3>This is the inherited block</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias soluta vel accusantium tenetur quam dolore quod odit? Voluptate, nesciunt saepe?</p>
+    <p>My name is {{ name }}</p>
+{% endblock %}
